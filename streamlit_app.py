@@ -3,11 +3,11 @@ import requests
 import openai
 
 # Set up OpenAI API key
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+openai.api_key = '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'
 
 def fetch_product_info_and_improve(asin, marketplace):
     params = {
-        'api_key': 'YOUR_ASIN_DATA_API_KEY',
+        'api_key': '5CCE0A4BA6C546C7987E63B21915AA99',
         'amazon_domain': marketplace,
         'asin': asin,
         'type': 'product'
